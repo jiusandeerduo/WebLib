@@ -1,0 +1,28 @@
+@import "../../../../style/project/base/appt.wxss";
+@import "../../skin/skin.wxss";
+@import "../../../../style/project/default_index_base.wxss";
+
+page {
+	background-color: #FDA714;
+}
+
+.up image {
+	width: 100%;
+	height: 550rpx;
+}
+
+.menu .item {
+	margin-bottom: 30rpx;
+}
+
+.load-project {
+	color:#fff!important;
+}
+
+.menu .item-inner .img {
+	width: 100rpx;
+	height: 100rpx;
+	background-color: rgba(201, 199, 196, 0.2);
+	border-radius: 20%;
+	background: linear-gradient(to bottom right, rgba(255, 186, 7, .3), rgba(235, 200, 95, .1));
+}
